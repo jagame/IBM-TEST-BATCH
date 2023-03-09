@@ -36,3 +36,4 @@ build/
 supplier.csv
 mvnw.cmd
 mvnw
+logs/
