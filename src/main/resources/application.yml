@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driverClassName=org.h2.Driver
+    url=jdbc:h2:mem:testdb;MODE=MYSQL
+  jpa:
+    database-platform=org.hibernate.dialect.MySQL5Dialect
+logging:
+  level:
+    root: OFF
+    com:
+      jagame:
+        ibm:
+          test:
+            supplier:
+              infrastructure: INFO
